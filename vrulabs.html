@@ -6,33 +6,35 @@
     <title>Landing Page</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.0.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-black flex flex-col items-center justify-center min-h-screen text-white">
+<body class="bg-gray-50 flex flex-col items-center justify-center min-h-screen">
     <div class="w-full px-4">
-        <div class="flex flex-col items-center justify-center">
-            <section class="container mx-auto px-4 py-8 bg-gray-800 rounded-lg shadow-outline">
+        <div class="flex flex-col items-center">
+            <!-- Video Explainer Section -->
+            <section class="container mx-auto px-4 py-8 bg-gray-100 focus:shadow-outline">
                 <div class="flex justify-center">
                     <div class="w-full md:max-w-4xl">
+                        <!-- Video Embed -->
                         <div style="position: relative; width: 100%; height: 0; padding-top: 56.25%; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; border-radius: 8px; overflow: hidden;">
                             <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none;"
                                 src="https://www.canva.com/design/DAF8ngBozgs/kXSHo8xyG4q1rnCAOQOPoA/watch?embed"
                                 allowfullscreen="allowfullscreen" allow="fullscreen">
                             </iframe>
                         </div>
-                        <a href="https://www.canva.com/design/DAF8ngBozgs/watch?utm_content=DAF8ngBozgs&utm_campaign=designshare&utm_medium=link&utm_source=embed" target="_blank" rel="noopener" class="text-center text-blue-400 hover:text-blue-600 font-semibold block mt-2">
+                        <a href="https://www.canva.com/design/DAF8ngBozgs/watch?utm_content=DAF8ngBozgs&utm_campaign=designshare&utm_medium=link&utm_source=embed" target="_blank" rel="noopener" class="text-center text-blue-500 hover:text-blue-700 font-semibold block mt-2">
                             View Video
                         </a>
                     </div>
                 </div>
             </section>
-            <div class="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 mt-4">
-                <a href="#" class="px-6 py-3 bg-blue-500 text-white rounded-md shadow-md hover:bg-blue-700 transition-colors duration-200 ease-in-out text-center">Speak with an Agent</a>
-                <a href="#" class="px-6 py-3 bg-green-500 text-white rounded-md shadow-md hover:bg-green-700 transition-colors duration-200 ease-in-out text-center">Learn More</a>
+            <!-- CTA Buttons -->
+            <div class="flex flex-col space-y-4 mt-4">
+                <a href="#" class="px-6 py-2 bg-blue-500 text-white rounded-md shadow-md hover:bg-blue-700 transition-colors duration-200 ease-in-out">Speak with an Agent</a>
+                <a href="#" class="px-6 py-2 bg-green-500 text-white rounded-md shadow-md hover:bg-green-700 transition-colors duration-200 ease-in-out">Learn More</a>
             </div>
         </div>
     </div>
-    <footer class="bg-gray-900 text-white text-center p-4 mt-4 w-full">
+    <footer class="bg-gray-900 text-white text-center p-4 mt-4">
         © Virtually You 2024. All rights reserved.
     </footer>
 </body>
 </html>
-
